@@ -1,17 +1,15 @@
 html {
   background-color: #232323;
-  height: 100%;
 }
 header {
   font-family: 'Andale Mono', sans-serif;
   background-color: #1B6E76;
+  margin: 0;
+  padding: 0;
 }
 body {
   width:100;
   margin: auto;
-}
-footer {
-
 }
 h1 {
   color: #f2f2f2;
@@ -30,8 +28,6 @@ h2 {
 }
 section {
   background-color: white;
-  margin: 0px;
-  padding: 0px;
 }
 nav {
   color: #f2f2f2;
@@ -43,4 +39,47 @@ nav {
 .section {
   background-color: white;
   align-content: center;
+}
+.ImageGroup {
+  text-align: center;
+  padding-bottom: 10px
+}
+.ImageGroup1 {
+  width: 70%;
+  top: 50px;
+  position: relative;
+}
+.ImageGroup2 {
+  width: 70%;
+  top: 50px;
+  position: relative;
+}
+.Image1, .Image2, .Image3, .Image4 {
+    width: 25%;
+}
+.EnterEmail {
+  margin-top: 0;
+  padding-top: 20px;
+  font-family: 'Andale Mono', sans-serif;
+  color: #1B6E76;
+}
+.form {
+  padding-top: 20px;
+  text-align: center;
+}
+.field {
+  border-radius: 3px;
+  border: 2px;
+  width: 400px;
+  height: 30px;
+  padding-bottom: 4px;
+}
+.button {
+  border-radius: 3px;
+  border: 2px;
+  width: 60px;
+  height: 35px;
+  font-family: 'Andale Mono', sans-serif;
+  color: white;
+  background-color: #1B6E76;
 }
