@@ -44,8 +44,9 @@ nav {
 .ImageLogo {
   padding-left: 20px;
   padding-top: 20px;
-  position: absolute;
-  width: 10%;
+  position: fixed;
+  width: 150px;
+  height: 150px;
 }
 .ImageGroup {
   text-align: center;
